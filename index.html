@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belated Birthday Wishes for Syifa!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Music Player (Optional) -->
+    <div class="music-player">
+        <button id="music-toggle">
+            <span class="music-note">♪</span>
+        </button>
+        <audio id="bg-music" loop>
+            <source src="audio/background-music.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="parallax-bg"></div>
+        <div class="confetti-container" id="confetti-container"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-delay="300">
+            <h1>Belated Birthday Wishes, Syifa Aulia Wangii 🎉</h1>
+            <p>Meskipun terlambat, ucapan untuk kelahiranmu tanggal 27 April 2008 ini tetap spesial. Lebih baik terlambat daripada tidak sama sekali, kan?wkwk</p>
+        </div>
+    </section>
+
+    <!-- About Syifa Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 data-aos="fade-up">Tentang Syifa</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <!-- Replace with actual image of Syifa -->
+                        <img src="img/syifa-placeholder.jpg" alt="Syifa Aulia Wangii">
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+                    <p>cipangg  lahir pada tanggal 27 April 2008, dan meskipun ucapan ini terlambat, kami tetap ingin merayakan hari spesialmu.</p>
+                    <p>Memiliki teman seperti Syifa adalah anugerah tersendiri. Dengan kehadiranmu, dunia menjadi tempat yang lebih indah. Meskipun kami terlambat mengucapkan, kami harap kamu memakluminya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="parallax-bg gallery-bg"></div>
+        <div class="container">
+            <h2 data-aos="fade-up">Kenangan Manis Sepanjang Tahun</h2>
+            <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+                <!-- Replace with actual images -->
+                <div class="gallery-item">
+                    <img src="img/memory-1.jpg" alt="Seru bareng Syifa">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/memory-2.jpg" alt="Hangout with Syifa">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/memory-3.jpg" alt="Fun times with Syifa">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/memory-4.jpg" alt="Memories with Syifa">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/memory-5.jpg" alt="Good times with Syifa">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/memory-6.jpg" alt="Squad moments with Syifa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">Belated Birthday Wishes</h2>
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-container">
+                    <div class="testimonial active">
+                        <div class="testimonial-bubble">
+                            <p>"Maaf telat mengucapkan, Syifa! Semoga di usia 17 tahunmu ini kamu diberkahi kesehatan, kebahagiaan, dan kesuksesan. Better late than never!"</p>
+                            <span class="author">- Teman 1</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-bubble">
+                            <p>"Syifa, maafkan keterlambatan ucapan ini ya. Semoga semua impianmu di tahun ini bisa terwujud. Kita rayakan ulang tahunmu meskipun telat!"</p>
+                            <span class="author">- Teman 2</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-bubble">
+                            <p>"Belated happy birthday, Syifa! Mungkin ucapannya telat, tapi doanya selalu tepat waktu. Semoga tahun ini jadi tahun terbaikmu!"</p>
+                            <span class="author">- Teman 3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn">❮</button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="next-btn">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Surprise Section -->
+    <section class="surprise" id="surprise">
+        <div class="parallax-bg surprise-bg"></div>
+        <div class="container">
+            <h2 data-aos="fade-up">Lebih Baik Terlambat... 🎁</h2>
+            <div class="surprise-content" data-aos="fade-up" data-aos-delay="200">
+                <div id="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <span class="label">Hari</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <span class="label">Jam</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <span class="label">Menit</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <span class="label">Detik</span>
+                    </div>
+                </div>
+                <button id="surprise-btn" class="glow-button">Klik Di Sini!</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p data-aos="fade-up">Selamat ulang tahun ke-17, Syifa! Meskipun terlambat, doa dan harapan terbaik kami selalu menyertaimu. Born on April 27, 2008. 💕</p>
+        </div>
+    </footer>
+
+    <!-- Modal for surprise -->
+    <div id="surprise-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="surprise-message">
+                <h3>Belated Birthday Message</h3>
+                <p>Dear Cipang, maafkan keterlambatan ucapan ini. Meskipun telat, kami ingin kamu tahu bahwa kami sangat menghargai kehadiranmu dalam hidup kami. Tanggal 27 April mungkin sudah berlalu, tapi kami tetap ingin merayakannya bersamamu. anjayyyyyyyy</p>
+                <p>Happy Belated 17th Birthday! 💐✨</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/confetti.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
